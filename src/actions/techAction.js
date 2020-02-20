@@ -10,7 +10,9 @@ export const getTechs = () => async dispatch => {
   try {
     setLoading();
 
-    const res = await fetch('/techs');
+    const res = await fetch(
+      'https://my-json-server.typicode.com/condinoaljoseph/ulogger/techs'
+    );
     const data = await res.json();
 
     dispatch({
@@ -29,13 +31,16 @@ export const addTech = tech => async dispatch => {
   try {
     setLoading();
 
-    const res = await fetch('/techs', {
-      method: 'POST',
-      body: JSON.stringify(tech),
-      headers: {
-        'Content-Type': 'application/json'
+    const res = await fetch(
+      'https://my-json-server.typicode.com/condinoaljoseph/ulogger/techs',
+      {
+        method: 'POST',
+        body: JSON.stringify(tech),
+        headers: {
+          'Content-Type': 'application/json'
+        }
       }
-    });
+    );
     const data = await res.json();
 
     dispatch({
@@ -54,9 +59,12 @@ export const deleteTech = id => async dispatch => {
   try {
     setLoading();
 
-    await fetch(`/techs/${id}`, {
-      method: 'DELETE'
-    });
+    await fetch(
+      `https://my-json-server.typicode.com/condinoaljoseph/ulogger/techs/${id}`,
+      {
+        method: 'DELETE'
+      }
+    );
 
     dispatch({
       type: DELETE_TECH,
