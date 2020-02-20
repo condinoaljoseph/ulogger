@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ulogger/precache-manifest.fb8ee3141c58471cb62ada91419f8a90.js"
+  "/ulogger/precache-manifest.01eba879fabf824d405670a262f32428.js"
 );
 
 self.addEventListener('message', (event) => {
