@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "503dff2b5a0a70857423f51d476d2dc7",
+    "revision": "4e6ce1559972aacc4e87e2019fd4ca63",
     "url": "/ulogger/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ulogger/static/css/2.2623327d.chunk.css"
   },
   {
-    "revision": "de726ed24f52da54426a",
+    "revision": "412881a0786578062f7d",
     "url": "/ulogger/static/css/main.36497136.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ulogger/static/js/2.afa9afc3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "de726ed24f52da54426a",
-    "url": "/ulogger/static/js/main.fd233288.chunk.js"
+    "revision": "412881a0786578062f7d",
+    "url": "/ulogger/static/js/main.0b76a3f2.chunk.js"
   },
   {
     "revision": "2ebb1998b3df57add5ff",
